@@ -1,0 +1,6 @@
+{
+  "name": "Quant-AI OS",
+  "description": "Production-quality trading bot monitoring dashboard with live Neon Postgres telemetry, equity curve, risk gauge, and events terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

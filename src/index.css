@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-main: #0B0F19;
+    --card-bg: #121824;
+    --border-color: #1E2A3A;
+    --accent-lime: #C8F135;
+    --accent-danger: #FF4D4D;
+    --accent-warning: #FFB020;
+    --text-primary: #E6EDF3;
+    --text-muted: #8B98A9;
+  }
+  
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #0B0F19;
+    color: #E6EDF3;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+}
+
+/* Custom scrollbars for dense terminal & ledger */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0E131F;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E2A3A;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2E3E54;
+}
+
+/* Custom subtle glow */
+.glow-lime {
+  box-shadow: 0 0 16px -2px rgba(200, 241, 53, 0.25);
+}
+
+.glow-danger {
+  box-shadow: 0 0 16px -2px rgba(255, 77, 77, 0.25);
+}
+
+.glow-warning {
+  box-shadow: 0 0 16px -2px rgba(255, 176, 32, 0.25);
+}
+
